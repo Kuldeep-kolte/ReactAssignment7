@@ -2,10 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [
     { id: '0', name: 'Kuldeep',age: '21',course:' MERN',batch: 'July' },
-    { id: '1', name: 'Ram',age: '23',course:' MEAN',batch: 'August' },
-    { id: '2', name: 'Sham',age: '23',course:' MERN',batch: 'June' },
+    { id: '1', name: 'Ram',age: '22',course:' MEAN',batch: 'August' },
+    { id: '2', name: 'Sham',age: '21',course:' MERN',batch: 'June' },
     { id: '3', name: 'Radhe',age: '23',course:' MEAN',batch: 'March' },
-    { id: '4', name: 'Poona',age: '23',course:' MERN',batch: 'May' }
+    { id: '4', name: 'Pankaj',age: '25',course:' MERN',batch: 'May' }
 ]
 const postSlice = createSlice({
     name:'posts',
